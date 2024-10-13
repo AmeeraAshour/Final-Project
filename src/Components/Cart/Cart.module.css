@@ -1,0 +1,118 @@
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+}
+.background {
+  height:25vh; 
+  width: 100%;
+  background-image: url('../../Assets/Images/photo5.png');
+  background-size:100%;
+  background-position:100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+}
+.head{
+  color: rgb(19, 53, 41);
+  display:inline;
+}
+.barShop{
+  display: grid;
+  justify-content:center;
+  color: rgb(26, 25, 25);
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  
+  
+  .producttable {
+    display: inline;
+    width: 50%;
+    border-collapse: collapse;
+    background-color: rgb(252, 235, 238);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  
+  }
+  
+  .product-table th, .product-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .productitem {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .product-item img {
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .producttable input[type="number"] {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  .deletebtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .carttotals {
+    display:grid;
+    margin-left:750px;
+    margin-bottom:550px;
+    width: 30%;
+    background-color: rgb(252, 235, 238);
+    padding-top: 0px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .cart-totals h2 {
+    margin-bottom: 20px;
+  }
+  
+  .totalsdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  .totalprice {
+    font-weight: bold;
+    color: #e2a21f;
+  }
+  
+  .checkout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }

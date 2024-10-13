@@ -1,0 +1,63 @@
+.navsinglepro{
+  width: 100%;
+    background-color: rgb(245, 212, 220);
+}
+.cardtext{
+    color: rgb(207, 99, 36);
+  }
+  .centeredbutton{
+    width:40px;      
+    height:40px; 
+    display:inline-block;
+    margin-right: 20px;
+  font-size: 16px;
+  background-color: #f5d3de;
+  color: rgb(17, 17, 17);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  .parasingle{
+    color: gray;
+    margin-top: 20px;
+  }
+  .centeredbutton1{
+    width:45px;      
+    height:45px; 
+    display:inline-block;
+    margin-right: 20px;
+  font-size: 16px;
+  background-color: #392d77;
+  border: none;
+  border-radius:50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  .centeredbutton2{
+    width:45px;      
+    height:45px; 
+    display:inline-block;
+    margin-right: 20px;
+  font-size: 16px;
+  background-color: #0d0d0e;
+  border: none;
+  border-radius:50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  .centeredbutton3{
+    width:45px;      
+    height:45px; 
+    display:inline-block;
+    margin-right: 20px;
+  font-size: 16px;
+  background-color: #d8861a;
+  border: none;
+  border-radius:50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  .counterbutton{
+    background-color: aliceblue;
+  }

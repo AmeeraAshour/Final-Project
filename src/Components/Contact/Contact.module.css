@@ -1,0 +1,63 @@
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+.background {
+    height:25vh; 
+    width: 100%;
+    background-image: url('../../Assets/Images/photo5.png');
+    background-size:100%;
+    background-position:100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+  }
+  .head{
+    color: rgb(19, 53, 41);
+  }
+  .cardname{
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .cardpar{
+    color: gray;
+    display:flex;
+    justify-content: center;
+
+  }
+ 
+  .centeredbutton{
+    width: 200px;      
+    height: 50px; 
+    margin-top: 20px;
+    padding: 10px 20px;
+  font-size: 16px;
+  background-color: #b38847;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  .formgroup{
+    display: block;
+    padding-bottom: 20px;
+  }
+  .iconcard{
+    display: block;
+  }
+  .barShop{
+    display: grid;
+    justify-content:center;
+    color: rgb(26, 25, 25);
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  .contact{
+ display: flex;
+  }
+  .contacticon{
+  display:contents
+  }

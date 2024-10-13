@@ -1,0 +1,147 @@
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+.background {
+    height:25vh; 
+    width: 100%;
+    background-image: url('../../Assets/Images/photo5.png');
+    background-size:100%;
+    background-position:100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+  }
+  .head{
+    color: rgb(19, 53, 41);
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding:10px;
+    background-color: #f3dddd;
+    color: rgb(26, 25, 25);
+    margin-bottom: 10px;
+  }
+  
+   .counterbtn {
+    background-color: #faf7f7;
+    border: none;
+    border-radius: 2px,2px,2px,2px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .counter {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .dropdown-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+   
+  button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #ecaec6;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .showing{
+    text-align: center;
+    margin-left:50px;
+  }
+  .showsort{
+  display:inline-flex;
+  margin-left:30px;
+
+  }
+   button:hover {
+    background-color: #e6a65d;
+  }
+  
+  button.active {
+    background-color: #007bff;
+    color: white;
+  }
+   
+    button:focus {
+    outline: none;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .barShop{
+    display: flex;
+    justify-content:center;
+    color: rgb(26, 25, 25);
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  .btnshowMore{
+    background-color: #47bd92;
+  border: 50%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+  .product {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .product:hover .overlay {
+    left: 0;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  h3, .font-sm, .price {
+    margin: 0;
+    padding: 0.5rem;
+  }
+  

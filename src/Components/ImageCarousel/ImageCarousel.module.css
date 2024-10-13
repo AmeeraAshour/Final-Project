@@ -1,0 +1,38 @@
+.container {
+ 
+  margin-top: 40px;
+  background-color:rgb(243, 224, 227) ;
+  background-size: 100%;
+  padding: 20px;
+
+  }
+  .details{
+    padding-top:100px;
+    display:inline-block;
+    align-items: left;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .carouselpara{
+    align-content:center ;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .explorebtn {
+    background-color: #ffc400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carouselimage{
+    width: 200px;
+    height: 300px;
+  }
